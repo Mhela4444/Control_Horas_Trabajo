@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="controldehorastrabajadass.MainPage">
+    <StackLayout BackgroundColor="#00FF00">
+        <Image Source="xamarin.png"
+               Margin="20" />
+        <Label Text="Control de Horas Trabajadas"
+               FontSize="25"
+               HorizontalOptions="CenterAndExpand"
+               Margin="0,20,0,20"
+               FontAttributes="Bold" />
+        <Button Text="Iniciar"
+                Clicked="OnStartClicked"
+                HorizontalOptions="CenterAndExpand"
+                Margin="20" />
+        <Button Text="Detener"
+                Clicked="OnStopClicked"
+                HorizontalOptions="CenterAndExpand"
+                Margin="20" />
+        <Label Text="Horas Trabajadas Diarias:"
+               HorizontalOptions="CenterAndExpand"
+               Margin="0,20,0,0"
+               FontAttributes="Bold" />
+        <Label x:Name="lblHorasDiarias"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="Horas Trabajadas Semanales:"
+               HorizontalOptions="CenterAndExpand"
+               Margin="0,20,0,0"
+               FontAttributes="Bold" />
+        <Label x:Name="lblHorasSemanales"
+               HorizontalOptions="CenterAndExpand" />
+        <Label Text="Horas Trabajadas Mensuales:"
+               HorizontalOptions="CenterAndExpand"
+               Margin="0,20,0,0"
+               FontAttributes="Bold" />
+        <Label x:Name="lblHorasMensuales" />
+    </StackLayout>
+</ContentPage>

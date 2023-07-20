@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="controldehorastrabajadass.portada">
+    <ContentPage.Content>
+       <StackLayout BackgroundColor="#FEE689">
+        <Image Source="https://www.espe.edu.ec/wp-content/uploads/2022/01/ESPEtransparente.png" />
+        <StackLayout VerticalOptions="Center"
+                     Spacing="40"></StackLayout >
+        <Label Text="APLICACIONES MOVILES "
+               VerticalOptions="CenterAndExpand"
+               HorizontalOptions="CenterAndExpand"
+               FontSize="30"
+               FontAttributes="Bold"
+               Margin="0,20,0,0" />
+        <Label Text="NRC:9331"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="25" />
+        <Label Text="INTEGRANTES:"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="20"
+               FontAttributes="Bold" />
+        <Label Text="JONATHAN VALLEJO"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="20" />
+        <Label Text="MELANIE TIPAN"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand"
+               FontSize="20" />
+        <Button Text="Iniciar"
+                CornerRadius="10"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                FontSize="Medium"
+                x:Name="btniniciar"
+                Clicked="btniniciar_Clicked"
+                BackgroundColor="Aquamarine" />
+    </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
